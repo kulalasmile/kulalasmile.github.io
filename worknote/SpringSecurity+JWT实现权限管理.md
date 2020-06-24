@@ -356,7 +356,8 @@ public class User implements UserDetails {
 
 
 
-### Role实体类
+### Role实体类     
+
 role表和user表多对多
 
 ```java
@@ -751,4 +752,28 @@ public class HelloController {
 }
 
 ```
+
+### 测试结果
+
+> 登录页面
+
+![](https://gitee.com//kulalasmile/image/raw/master/img/20200617095407.png)
+
+
+
+> 登录成功页面
+
+![](https://gitee.com//kulalasmile/image/raw/master/img/20200617095652.png)
+
+> Token测试
+
+![](https://gitee.com//kulalasmile/image/raw/master/img/20200617095723.png)
+
+> Token刷新测试
+
+![](https://gitee.com//kulalasmile/image/raw/master/img/20200617095813.png)
+
+> 权限不足
+
+![](https://gitee.com//kulalasmile/image/raw/master/img/20200617102641.png)
 
