@@ -15,7 +15,7 @@
   * [SQL执行过程](javanote/sql执行过程.md)
   * [Docker](javanote/Docker.md)
   * [Elasticsearch](javanote/Elasticsearch.md)
-* [设计模式](javanote/设计模式.md)
+  * [设计模式](javanote/设计模式.md)
   
 * 工作笔记
   * [代码模板](worknote/代码模板.md)
