@@ -22,7 +22,9 @@ MP4文件有4部分组成，当moov处于末尾时，只有当文件缓存完毕
 
 ## qt-faststart简介
 
-qt-faststart是一个由Mike Melanson (melanson@pcisys.net)写的开源程序，是一个命令行工具。你可能可以在很多地方找到它的源码，我一般是在`FFmpeg`的源码中拿，它通常放在`FFmpeg`源码的`tools`目录下，比如`github`仓库中的位置为https://github.com/FFmpeg/FFmpeg/blob/master/tools/qt-faststart.c。该程序只有一个源码文件，很小（不到13KB）。
+qt-faststart是一个由Mike Melanson (melanson@pcisys.net)写的开源程序，是一个命令行工具。你可能可以在很多地方找到它的源码，我一般是在`FFmpeg`的源码中拿，它通常放在`FFmpeg`源码的`tools`目录下，比如`github`仓库中的位置为https://github.com/FFmpeg/FFmpeg/blob/master/tools/qt-faststart.c  
+
+该程序只有一个源码文件，很小（不到13KB）。
 
 
 
@@ -56,7 +58,7 @@ mp4文件路径可以是绝对或者相对路径。
 
 
 
-Java代码调用qt-faststart
+## Java代码调用qt-faststart
 
 ```java
 	// mp4文件moov前置
