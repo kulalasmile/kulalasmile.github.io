@@ -1,6 +1,6 @@
-## SpringSecurity+JWT实现权限管理
+# SpringSecurity+JWT实现权限管理
 
-### pom.xml
+## pom.xml
 
 ```xml
 	<parent>
@@ -81,7 +81,7 @@
 
 
 
-### application.yml
+## application.yml
 
 ```yaml
 server:
@@ -128,7 +128,7 @@ secure:
 
 
 
-### JwtTokenUtils
+## JwtTokenUtils
 
 ```java
 @Component
@@ -252,7 +252,7 @@ public class JwtTokenUtil {
 
 
 
-### User实体类
+## User实体类
 
 ```java
 @Entity(name = "t_user")
@@ -356,7 +356,7 @@ public class User implements UserDetails {
 
 
 
-### Role实体类     
+## Role实体类
 
 role表和user表多对多
 
@@ -410,7 +410,7 @@ public class Role {
 
 
 
-### UserDao接口
+## UserDao接口
 
 ```java
 public interface UserDao extends JpaRepository<User, Long> {
@@ -422,7 +422,7 @@ public interface UserDao extends JpaRepository<User, Long> {
 
 
 
-### UserService
+## UserService
 
 ```java
 @Service
@@ -479,7 +479,7 @@ public class UserService implements UserDetailsService {
 
 
 
-### RestAuthenticationEntryPoint
+## RestAuthenticationEntryPoint
 
 ```java
 /**
@@ -502,7 +502,7 @@ public class RestAuthenticationEntryPoint implements AuthenticationEntryPoint {
 
 ```
 
-### RestfulAccessDeniedHandler
+## RestfulAccessDeniedHandler
 
 ```java
 @Component
@@ -522,7 +522,7 @@ public class RestfulAccessDeniedHandler implements AccessDeniedHandler {
 
 
 
-### JwtAuthenticationTokenFilter
+## JwtAuthenticationTokenFilter
 
 ```java
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
@@ -573,7 +573,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
 
 
-### IgnoreUrlsConfig读取放行路径
+## IgnoreUrlsConfig读取放行路径
 
 ```java
 @Component
@@ -591,7 +591,7 @@ public class IgnoreUrlsConfig {
 }
 ```
 
-### SecurityConfig
+## SecurityConfig
 
 ```java
 @Configurable
@@ -700,7 +700,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 
 
-### Controller进行测试
+## Controller进行测试
 
 ```java
 @RestController
@@ -753,7 +753,7 @@ public class HelloController {
 
 ```
 
-### 测试结果
+## 测试结果
 
 > 登录页面
 

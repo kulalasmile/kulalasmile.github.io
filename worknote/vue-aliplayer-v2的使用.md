@@ -1,6 +1,6 @@
-## vue-aliplayer-v2组件的使用
+# vue-aliplayer-v2的使用
 
-### 安装依赖
+## 安装依赖
 
 ```
 npm i vue-aliplayer-v2 --save
@@ -10,7 +10,7 @@ yarn add vue-aliplayer-v2
 
 
 
-### 全局注册main.js
+## 全局注册main.js
 
 ```
 import VueAliplayerV2 from 'vue-aliplayer-v2';
@@ -20,7 +20,7 @@ Vue.use(VueAliplayerV2);
 
 
 
-### 局部注册 App.vue
+## 局部注册 App.vue
 
 ```
 import VueAliplayerV2 from 'vue-aliplayer-v2';
@@ -29,7 +29,7 @@ components:{ VueAliplayerV2: VueAliplayerV2.Player }
 
 
 
-### 使用
+## 使用
 
 ```vue
 <div v-if="this.fileInfo!==undefined" style="width: 500px" class="video-div">
@@ -51,6 +51,6 @@ components:{ VueAliplayerV2: VueAliplayerV2.Player }
 
 
 
-### 参考资料：
+## 参考资料：
 
 https://github.com/langyuxiansheng/vue-aliplayer-v2
