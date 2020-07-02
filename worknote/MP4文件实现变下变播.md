@@ -9,19 +9,24 @@
 ## MP4文件结构
 
 使用mp4info软件查看MP4文件发现
+
+
+
 ![MP4](https://gitee.com//kulalasmile/image/raw/master/img/20200702084659.png)
+
+
 
 MP4文件有4部分组成，当moov处于末尾时，只有当文件缓存完毕后才能读到moov文件信息
 
 
 
-## `qt-faststart`简介
+## qt-faststart简介
 
 qt-faststart是一个由Mike Melanson (melanson@pcisys.net)写的开源程序，是一个命令行工具。你可能可以在很多地方找到它的源码，我一般是在`FFmpeg`的源码中拿，它通常放在`FFmpeg`源码的`tools`目录下，比如`github`仓库中的位置为https://github.com/FFmpeg/FFmpeg/blob/master/tools/qt-faststart.c。该程序只有一个源码文件，很小（不到13KB）。
 
 
 
-## `qt-faststart`编译与使用
+## qt-faststart编译与使用
 
 要使用它需要先编译,这个程序能利用大多数编译工具实现编译，因为我一般在`linux`下使用，所以直接`make tools/qt-faststart.c` 即可在`tools`目录下产生出名为`qt-faststart`的可执行文件，然后把编译输出结果放置到系统搜索路径中即可以`qt-faststart`来进行调用使用了。
 
@@ -48,3 +53,24 @@ mp4文件路径可以是绝对或者相对路径。
 ![](https://gitee.com//kulalasmile/image/raw/master/img/20200702090108.png)
 
 发现moov已经调整到文件的前边来了，只有就可以实现边下边播
+
+
+
+Java代码调用qt-faststart
+
+```java
+	// mp4文件moov前置
+    public String frontMoov(){
+        String strCmd = "cmd /c " + qt_faststart_path + " " + video_path+" "+ mp4folder_path+mp4_name;
+        // linux命令
+        // String strCmd =  qt_faststart_path + " " + video_path+" "+ mp4folder_path+mp4_name;
+        Runtime runtime = Runtime.getRuntime();
+        try {
+            runtime.exec(strCmd);
+        } catch (Exception e) {
+            return "Error!";
+        }
+        return "success";
+    }
+```
+
