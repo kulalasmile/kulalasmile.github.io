@@ -1,6 +1,6 @@
-## SpringBoot返回数据封装
+# SpringBoot返回数据封装
 
-### 新建一个CommonResult类
+## 新建一个CommonResult类
 
 ```java
 /**
@@ -130,7 +130,7 @@ public class CommonResult<T> {
 
 ```
 
-### 新建一个ResultCode枚举
+## 新建一个ResultCode枚举
 
 
 ```java
@@ -167,7 +167,7 @@ public enum ResultCode implements IErrorCode {
 }
 
 ```
-### 新建一个用来封装错误码的类
+## 新建一个用来封装错误码的类
 
 ```java
 /**

@@ -1,8 +1,8 @@
-## Elasticsearch
+# Elasticsearch
 
-### 文档(Document)
+## 文档(Document)
 
-##### 什么是文档？
+#### 什么是文档？
 
 文档就是类似数据库里面的一条长长的存储记录。文档是索引信息的基本单位。
 
@@ -15,7 +15,7 @@
 
 
 
-### 入门案例
+## 入门案例
 
 1. 分词器使用
 
@@ -345,7 +345,7 @@
 
 
 
-### SpringData Elasticsearch
+## SpringData Elasticsearch
 
 pom.xml
 

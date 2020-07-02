@@ -1,4 +1,4 @@
-## IDEA插件
+# IDEA插件
 
 **lombok**：省略get和set，构造函数
 

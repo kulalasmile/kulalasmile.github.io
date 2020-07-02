@@ -1,6 +1,6 @@
-## Java锁
+# Java锁
 
-### 公平锁和非公平锁
+## 公平锁和非公平锁
 
 > 概念：
 
@@ -24,7 +24,7 @@ ReentrantLock和synchronized是非公平锁
 
 
 
-### 可重入锁和递归锁
+## 可重入锁和递归锁
 
 > 概念：
 
@@ -123,7 +123,7 @@ t2	 invoked sendEmail()    t2在进入内层方法会自动获取锁
 
 
 
-### 自旋锁和互斥锁
+## 自旋锁和互斥锁
 
 > 概念：
 
@@ -147,7 +147,7 @@ t2	 invoked sendEmail()    t2在进入内层方法会自动获取锁
 
  
 
-### 共享锁和排它锁
+## 共享锁和排它锁
 
 > 概念：
 
@@ -155,7 +155,7 @@ t2	 invoked sendEmail()    t2在进入内层方法会自动获取锁
 
 
 
-### 读写锁
+## 读写锁
 
 >  概念：  
 
@@ -197,7 +197,7 @@ public class Test2 {
 
 ![](https://kulalasmile.oss-cn-hangzhou.aliyuncs.com/PicGo20200519184250.png)
 
-### 阻塞队列
+## 阻塞队列
 
 > 概念：
 
