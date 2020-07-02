@@ -13,6 +13,7 @@
   * [代码模板](worknote/代码模板.md)
   * [vue-aliplayer-v2使用](worknote/vue-aliplayer-v2的使用.md)
   * [SpringSecurity+JWT实现权限管理](worknote/SpringSecurity+JWT实现权限管理.md)
+  * [MP4文件实现变下变播](worknote/MP4文件实现变下变播.md)
   * [代码模板](worknote/代码模板.md)
   
 * 业务篇
