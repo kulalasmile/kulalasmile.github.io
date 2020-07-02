@@ -1,6 +1,6 @@
-## Docker
+# Docker
 
-### 命令
+## 命令
 
 - 启动docker服务
 
@@ -158,7 +158,7 @@
 
 
 
-### 目录挂载
+## 目录挂载
 
  如果要挂载宿主机的一个目录，可以用-v参数指定。  譬如我要启动一个centos容器，宿主机的/test目录挂载到容器的/soft目录 ， 冒号":"前面的目录是宿主机目录，后面的目录是容器内目录 
 
@@ -178,7 +178,7 @@ bin  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  s
 
 
 
-### Dockerfile
+## Dockerfile
 
 [案例](https://www.cnblogs.com/edisonchou/p/dockerfile_inside_introduction.html)
 
