@@ -16,6 +16,7 @@
   * [MP4文件实现变下变播](worknote/MP4文件实现变下变播.md)
   * [动态权限管理的数据库设计](worknote/动态权限管理的数据库设计.md)
   * [SpringBoot整合Knife4j](worknote/SpringBoot整合Knife4j.md)
+  * [Json转换](worknote/Json转换.md)
   
 * 业务篇
   * [mall数据库表结构概览](database/mall_database_overview.md)
