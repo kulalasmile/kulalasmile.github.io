@@ -8,7 +8,7 @@
   * [Elasticsearch](javanote/Elasticsearch.md)
   * [Git](javanote/Git.md)
   * [设计模式](javanote/设计模式.md)
-  * [Docker Compose的使用](javanote/Docker Compose的使用.md)
+  * [Docker-Compose的使用](javanote/Docker-Compose的使用.md)
   * [并发基础知识](javanote/并发基础知识.md)
   * [Springboot原理](javanote/Springboot原理.md)
   * [JVM](javanote/JVM.md)
