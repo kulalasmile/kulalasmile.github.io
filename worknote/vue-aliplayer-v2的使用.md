@@ -1,3 +1,4 @@
+[TOC]
 # vue-aliplayer-v2的使用
 
 ## 安装依赖

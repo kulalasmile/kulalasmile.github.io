@@ -1,3 +1,4 @@
+[TOC]
 # SpringBoot返回数据封装
 
 ## 新建一个CommonResult类

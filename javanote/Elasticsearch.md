@@ -1,3 +1,4 @@
+[TOC]
 # Elasticsearch
 
 ## 文档(Document)
