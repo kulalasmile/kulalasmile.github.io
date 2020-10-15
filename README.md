@@ -1,10 +1,8 @@
 
 # java学习笔记
 <p>
-<a href="#?id=公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
-<a href=""><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E9%A1%B9%E7%9B%AE-mall-blue.svg" alt="后台项目"></a>
-<a href=""><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE-mall--admin--web-green.svg" alt="前端项目"></a>
-<a href=""><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/Cloud%E7%89%88%E6%9C%AC-mall--swarm-brightgreen.svg" alt="SpringCloud版本"></a>
+<a href="#?id=note"><img src="https://img.shields.io/badge/java%E7%89%88%E6%9C%AC-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-green" alt="公众号"></a>
+<a href=""><img src="https://img.shields.io/badge/java%E7%89%88%E6%9C%AC-%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0-yellowgreen" alt="后台项目"></a>
 </p>
 
 * JAVA笔记
