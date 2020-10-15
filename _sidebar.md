@@ -13,7 +13,8 @@
   * [Springboot原理](javanote/Springboot原理.md)
   * [JVM](javanote/JVM.md)
   * [观察者模式](javanote/观察者模式.md)
-  * [算法](算法.md)
+  * [算法](javanote/算法.md)
+  * [策略模式解决多重if-else](javanote/策略模式解决多重if-else.md)
 * 工作笔记
   * [注意事项](worknote/注意事项.md)
   * [代码模板](worknote/代码模板.md)
@@ -23,7 +24,8 @@
   * [动态权限管理的数据库设计](worknote/动态权限管理的数据库设计.md)
   * [SpringBoot整合Knife4j](worknote/SpringBoot整合Knife4j.md)
   * [Json转换](worknote/Json转换.md)
-  * [递归查询树](递归查询树.md)
+  * [递归查询树](worknote/递归查询树.md)
+  * [IDEA骚操作](worknote/IDEA骚操作.md)
 * 业务篇
   * [mall数据库表结构概览](database/mall_database_overview.md)
 
