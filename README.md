@@ -32,7 +32,7 @@
   * [SpringBoot整合Knife4j](worknote/SpringBoot整合Knife4j.md)
   * [Json转换](worknote/Json转换.md)
   * [递归查询树](worknote/递归查询树.md)
-  * [IDEA骚操作](worknote/IDEA骚操作.md)
+  * [IDEA操作](worknote/IDEA操作.md)
 * 业务篇
   * [mall数据库表结构概览](database/mall_database_overview.md)
 
