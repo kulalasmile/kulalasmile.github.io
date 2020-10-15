@@ -13,6 +13,7 @@
   * [Springboot原理](javanote/Springboot原理.md)
   * [JVM](javanote/JVM.md)
   * [观察者模式](javanote/观察者模式.md)
+  * [算法](算法.md)
 * 工作笔记
   * [注意事项](worknote/注意事项.md)
   * [代码模板](worknote/代码模板.md)
