@@ -8,6 +8,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@0.6.1/dist/style.css"/>
 </head>
 <body>
   <div id="app"></div>
@@ -25,16 +26,48 @@
         placeholder: '搜索',
         noData: '找不到结果!',
         depth: 3
+      },
+      copyCode: {
+        buttonText : '复制',
+        errorText  : 'Error',
+        successText: 'OK!'
+      },
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+      },
+
+      darkMode: {
+        light: {
+          toggleBtnBg: "#42b983",
+        },
+      },
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
       }
+
     }
     </script>
-  <script src="//unpkg.com/docsify@4.10.0/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify@4.10.0/lib/plugins/ga.js"></script>
-  <script src="//unpkg.com/docsify@4.10.0/lib/plugins/search.js"></script>
-  <script src="//unpkg.com/docsify-copy-code@2.1.0/dist/docsify-copy-code.min.js"></script>
-  <script src="//unpkg.com/prismjs@1.19.0/components/prism-bash.js"></script>
-  <script src="//unpkg.com/prismjs@1.19.0/components/prism-java.js"></script>
-  <script src="//unpkg.com/prismjs@1.19.0/components/prism-sql.js"></script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <!-- 字数统计 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
+  <!--分页插件-->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!--统计访问量插件-->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <!-- 主题 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@0.6.1/dist/index.js"></script>
   
 </body>
 </html>
